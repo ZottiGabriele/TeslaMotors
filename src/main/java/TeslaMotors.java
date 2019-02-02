@@ -25,6 +25,6 @@ public class TeslaMotors {
 
         System.out.println(debugPrinter.prettyPrint(myNewModelS)+ "\n");
         System.out.println(debugPrinter.prettyPrint(myUsedModelX));
-        System.out.println("\tWith " + myUsedModelX.getKilometersConut() + " km since " + myUsedModelX.getLicenceDate());
+        System.out.println("\tWith " + myUsedModelX.getKilometersCount() + " km since " + myUsedModelX.getLicenceDate());
     }
 }

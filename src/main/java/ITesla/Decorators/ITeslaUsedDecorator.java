@@ -21,7 +21,7 @@ public class ITeslaUsedDecorator extends ITeslaDecorator implements ITeslaUsed {
         return usedPrice;
     }
 
-    public float getKilometersConut() {
+    public float getKilometersCount() {
         return this.kilometersCount;
     }
 

@@ -58,18 +58,6 @@ public class ITeslaBuilder {
     }
 
     public ITeslaUsed buildUsed(float usedPrice, float kilometersCount, String licenceDate) {
-        ITeslaUsed used = null;
-        switch (component.getTeslaModel()) {
-            case modelX:
-                used = new ITeslaUsedDecorator(component, usedPrice, kilometersCount, licenceDate);
-                break;
-            case modelS:
-                used = new ITeslaUsedDecorator(component, usedPrice, kilometersCount, licenceDate);
-                break;
-            case model3:
-                used = new ITeslaUsedDecorator(component, usedPrice, kilometersCount, licenceDate);
-                break;
-        }
-        return used;
+        return new ITeslaUsedDecorator(component, usedPrice, kilometersCount, licenceDate);
     }
 }

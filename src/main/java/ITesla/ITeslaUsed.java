@@ -1,6 +1,6 @@
 package ITesla;
 
 public interface ITeslaUsed extends ITesla {
-    float getKilometersConut();
+    float getKilometersCount();
     String getLicenceDate();
 }
