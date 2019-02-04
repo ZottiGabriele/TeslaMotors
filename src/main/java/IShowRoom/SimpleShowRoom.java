@@ -1,56 +1,94 @@
 package IShowRoom;
 
+import ITesla.Decorators.ITeslaDiscountDecorator;
+import ITesla.Enums.BatteryType;
+import ITesla.Enums.TeslaModel;
 import ITesla.ITesla;
+import ITesla.ITeslaUsed;
+import ITesla.ITeslaBuilder;
+import ITesla.DebugPrinter;
+
 import java.util.ArrayList;
 import java.util.Date;
-import java.util.stream.Collectors;
+import java.util.function.Predicate;
 
 public class SimpleShowRoom implements IShowRoom {
 
-    private final String name;
-    private final String city;
-    SimpleShowRoomDatabase database = new SimpleShowRoomDatabase();
+    ITeslaDB database;
+    ArrayList<ITesla> bookedTeslas = new ArrayList<ITesla>();
 
-    public SimpleShowRoom(String name, String city) {
-        this.name = name;
-        this.city = city;
+    public SimpleShowRoom() {
+        database = new SimpleTeslaDB();
+        ITeslaBuilder builder = new ITeslaBuilder();
+
+        //TEST CODE-----------------------------------------------------------------------------------------------------
+       ITesla test = builder.getTesla(TeslaModel.modelX).build();
+        database.addEntry(test);
+        database.addEntry(test);
+        database.addEntry(builder.getTesla(TeslaModel.modelX)
+                .withBattery(BatteryType.kwh110)
+                .build());
+        database.removeEntry(test);
+        database.removeEntry(test);
+        database.addEntry(test);
+        database.addEntry(builder.getTesla(TeslaModel.modelS)
+                .buildUsed(10, 141412, new Date(1212, 12, 12)));
+        //--------------------------------------------------------------------------------------------------------------
     }
 
-    public ArrayList<ITesla> getAllCars() {
+    public ArrayList<ITesla> getAllAvailableTeslasForTestDrive(TeslaModel model, Date targetDate) {
+        ArrayList<ITesla> availableModels = database.getAllTeslasMatching(entry ->
+                entry.getAssociatedTesla().getTeslaModel() == model
+                && entry.isAvailableForTheDate(targetDate));
+
+        System.out.println("Found matching model: " + model + ", available for the date " + targetDate + " -------------------------");
+        for (ITesla t : availableModels) {
+            System.out.println(DebugPrinter.prettyPrint(t));
+        }
+        System.out.println("--------------------------------------------------------------------------------------------------------------------");
+        return availableModels;
+    }
+
+    public void bookTestDrive(TeslaModel model, Date targetDate) {
+        ArrayList<ITeslaDBEntry> possibleEntries = database.getAllEntriesMatching(entry ->
+                entry.getAssociatedTesla().getTeslaModel() == model
+                && entry.isAvailableForTheDate(targetDate));
+        if(!possibleEntries.isEmpty()) {
+            possibleEntries.get(0).bookForTheDate(targetDate);
+        }
+    }
+
+    public void bookPurchase(ITesla targetTesla) {
+        if(database.getFirstTeslaMatching(entry -> entry.getAssociatedTesla() == targetTesla) != null) {
+            System.out.println("BOOKED");
+            bookedTeslas.add(targetTesla);
+            database.removeEntry(targetTesla);
+        } else {
+            System.err.println("TRYED TO BOOK TESLA NOT AVAILABLE DUH");
+        }
+    }
+
+    public void bookPurchase(ITesla targetTesla, float discountPercentage) {
+        if(database.getFirstTeslaMatching(entry -> entry.getAssociatedTesla() == targetTesla) != null) {
+            System.out.println("BOOKED");
+            ITesla discountedTesla = new ITeslaDiscountDecorator(targetTesla, discountPercentage);
+            bookedTeslas.add(discountedTesla);
+            database.removeEntry(targetTesla);
+        } else {
+            System.err.println("TRYED TO BOOK TESLA NOT AVAILABLE DUH");
+        }
+    }
+
+    public ArrayList<ITeslaUsed> filterUsedTesla(Predicate predicate) {
         //TODO
         return null;
     }
 
-    public ArrayList<ITesla> getAvailableCars(Date targetDate) {
-        ArrayList<ITesla> out = new ArrayList<ITesla>();
-
-        return out;
+    public ArrayList<ITesla> getBookedTeslasWaitingForShipping() {
+        return bookedTeslas;
     }
 
-    public void addCarToShowroom(ITesla carToAdd) {
-        IShowRoomDatabaseEntry entry = new SimpleShowRoomDatabaseEntry(carToAdd);
-        database.addEntry(entry);
+    public ArrayList<ITesla> getAllAvailableTeslas() {
+        return database.getAllTeslasMatching(x -> true);
     }
-
-    public void removeCarFromShowroom(ITesla target) {
-        for(IShowRoomDatabaseEntry e : database.getAllEntries()) {
-            if(e.getTesla() == target) {
-                database.removeEntry(e);
-            }
-        }
-    }
-
-    public void bookCarForDate(ITesla targetTesla, Date targetDate) {
-        database.getAllEntries().stream().filter(x -> x.getTesla() == targetTesla).collect(Collectors.toList()).get(0).bookForDate(targetDate);
-    }
-
-    public String getShowRoomName() {
-        return this.name;
-    }
-
-    public String getShowRoomCity() {
-        return this.city;
-    }
-
-
 }

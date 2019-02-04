@@ -4,7 +4,7 @@ import IShowRoom.IShowRoom;
 
 public class DebugPrinter {
 
-    public String prettyPrint(ITesla target) {
+    public static String prettyPrint(ITesla target) {
         StringBuilder sb = new StringBuilder();
         sb.append("----------------------------------------------------------\n");
         sb.append("Tesla ").append(target.getTeslaModel());
@@ -18,7 +18,7 @@ public class DebugPrinter {
         return sb.toString();
     }
 
-    public String prettyPrint(ITeslaUsed target) {
+    public static String prettyPrint(ITeslaUsed target) {
         StringBuilder sb = new StringBuilder();
         sb.append("----------------------------------------------------------\n");
         sb.append("Tesla ").append(target.getTeslaModel()).append(" used");
@@ -35,21 +35,21 @@ public class DebugPrinter {
         sb.append("----------------------------------------------------------\n");
         return sb.toString();
     }
-
-    public String prettyPrint(IShowRoom target) {
-        StringBuilder sb = new StringBuilder();
-        sb.append("---------- " + target.getShowRoomName() + " ----------");
-        sb.append("\nLocation: ").append(target.getShowRoomCity());
-        sb.append("\nAvailable cars:\n");
-        int i = 1;
-        for(ITesla t : target.getAllCars()) {
-            if(t instanceof ITeslaUsed) {
-                sb.append(i + ")\t").append(prettyPrint((ITeslaUsed)t));
-            } else {
-                sb.append(i + ")\t").append(prettyPrint(t));
-            }
-            i++;
-        }
-        return sb.toString();
-    }
+//TODO
+//    public String prettyPrint(IShowRoom target) {
+//        StringBuilder sb = new StringBuilder();
+//        sb.append("---------- " + target.getShowRoomName() + " ----------");
+//        sb.append("\nLocation: ").append(target.getShowRoomCity());
+//        sb.append("\nAvailable cars:\n");
+//        int i = 1;
+//        for(ITesla t : target.getAllCars()) {
+//            if(t instanceof ITeslaUsed) {
+//                sb.append(i + ")\t").append(prettyPrint((ITeslaUsed)t));
+//            } else {
+//                sb.append(i + ")\t").append(prettyPrint(t));
+//            }
+//            i++;
+//        }
+//        return sb.toString();
+//    }
 }

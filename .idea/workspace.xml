@@ -2,44 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="198e3492-38d9-49e9-ad1f-86eee3cf70d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/IShowRoom/IShowRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/IShowRoom/IShowRoomDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/IShowRoom/IShowRoomDatabaseEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/IShowRoom/IShowRoomDatabaseEntryFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/IShowRoom/IShowRoomFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/IShowRoom/SimpleShowRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/IShowRoom/SimpleShowRoomDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/IShowRoom/SimpleShowRoomDatabaseEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/IShowRoom/SimpleShowRoomDatabaseEntryFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/IShowRoom/SimpleShowRoomFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/IShowRoom/ITeslaDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/IShowRoom/ITeslaDBEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/IShowRoom/SimpleDBEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/IShowRoom/SimpleTeslaDB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sh.exe.stackdump" beforeDir="false" afterPath="$PROJECT_DIR$/sh.exe.stackdump" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ITesla/BaseModels/TeslaModel3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ITesla/BaseModels/TeslaModel3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ITesla/BaseModels/TeslaModelS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ITesla/BaseModels/TeslaModelS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ITesla/BaseModels/TeslaModelX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ITesla/BaseModels/TeslaModelX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IShowRoom/IShowRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IShowRoom/IShowRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IShowRoom/IShowRoomDatabase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IShowRoom/IShowRoomDatabaseEntry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IShowRoom/IShowRoomDatabaseEntryFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IShowRoom/IShowRoomFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IShowRoom/SimpleShowRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IShowRoom/SimpleShowRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IShowRoom/SimpleShowRoomDatabase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IShowRoom/SimpleShowRoomDatabaseEntry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IShowRoom/SimpleShowRoomDatabaseEntryFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IShowRoom/SimpleShowRoomFactory.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ITesla/DebugPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ITesla/DebugPrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ITesla/Decorators/ITeslaBatteryDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ITesla/Decorators/ITeslaBatteryDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ITesla/Decorators/ITeslaDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ITesla/Decorators/ITeslaDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ITesla/Decorators/ITeslaExteriorColorDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ITesla/Decorators/ITeslaExteriorColorDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ITesla/Decorators/ITeslaRoofDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ITesla/Decorators/ITeslaRoofDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ITesla/Decorators/ITeslaSeatsColorDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ITesla/Decorators/ITeslaSeatsColorDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ITesla/Decorators/ITeslaSeatsModelDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ITesla/Decorators/ITeslaSeatsModelDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ITesla/Decorators/ITeslaUsedDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ITesla/Decorators/ITeslaUsedDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ITesla/Enums/BatteryType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ITesla/Enums/BatteryType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ITesla/Enums/ExteriorColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ITesla/Enums/ExteriorColor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ITesla/Enums/RoofType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ITesla/Enums/RoofType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ITesla/Enums/SeatsColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ITesla/Enums/SeatsColor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ITesla/Enums/SeatsModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ITesla/Enums/SeatsModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ITesla/Enums/TeslaModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ITesla/Enums/TeslaModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ITesla/ITesla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ITesla/ITesla.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ITesla/ITeslaBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ITesla/ITeslaBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ITesla/ITeslaUsed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ITesla/ITeslaUsed.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TeslaMotors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TeslaMotors.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -63,83 +41,36 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="295" />
+          <entry key="dummy" value="3" />
+          <entry key="java" value="3821" />
+          <entry key="txt" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="295" />
+          <entry key="JAVA" value="3821" />
+          <entry key="PLAIN_TEXT" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="3" />
+          <entry key="java" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="19" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/TeslaMotors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/IShowRoom/SimpleShowRoom.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="989">
-              <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#623#631#0" expanded="true" />
-                <element signature="e#1590#1591#0" expanded="true" />
-                <element signature="e#1622#1623#0" expanded="true" />
-                <element signature="e#1661#1662#0" expanded="true" />
-                <element signature="e#1693#1694#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/IShowRoom/SimpleShowRoomDatabase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/IShowRoom/IShowRoomDatabaseEntryFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/IShowRoom/IShowRoomFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
+            <state relative-caret-position="-9">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -147,8 +78,83 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/IShowRoom/IShowRoom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            <state relative-caret-position="274">
+              <caret line="14" column="68" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/IShowRoom/SimpleShowRoom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="75" column="46" lean-forward="true" selection-start-line="75" selection-start-column="46" selection-end-line="75" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#405#413#0" expanded="true" />
+                <element signature="e#2903#2904#0" expanded="true" />
+                <element signature="e#2938#2939#0" expanded="true" />
+                <element signature="e#3145#3146#0" expanded="true" />
+                <element signature="e#3199#3200#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/IShowRoom/SimpleTeslaDB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#314#329#0" expanded="true" />
+                <element signature="e#220#221#0" expanded="true" />
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#1165#1173#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/IShowRoom/SimpleDBEntry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#288#289#0" expanded="true" />
+                <element signature="e#342#343#0" expanded="true" />
+                <element signature="e#188#189#0" expanded="true" />
+                <element signature="e#215#216#0" expanded="true" />
+                <element signature="e#262#263#0" expanded="true" />
+                <element signature="e#289#290#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/IShowRoom/ITeslaDB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/IShowRoom/ITeslaDBEntry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -161,8 +167,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -172,10 +178,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ITeslaExteriorColorDecorator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ITeslaRoofDecorator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Enums.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ITeslaSeatsModelDecorator.java" />
         <option value="$PROJECT_DIR$/src/main/java/TeslaModelX.java" />
         <option value="$PROJECT_DIR$/src/main/java/ITeslaModels/ITeslaBatteryDecorator.java" />
         <option value="$PROJECT_DIR$/src/main/java/ITeslaModels/BatteryType.java" />
@@ -208,7 +210,6 @@
         <option value="$PROJECT_DIR$/src/main/java/ITesla/ITeslaBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/ITesla/Decorators/ITeslaUsedDecorator.java" />
         <option value="$PROJECT_DIR$/src/main/java/IShowRoom/IShowRoomFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ITesla/DebugPrinter.java" />
         <option value="$PROJECT_DIR$/src/main/java/IShowRoomDatabaseEntry.java" />
         <option value="$PROJECT_DIR$/src/main/java/SimpleShowRoomDatabaseEntry.java" />
         <option value="$PROJECT_DIR$/src/main/java/IShowRoomDatabase.java" />
@@ -219,8 +220,13 @@
         <option value="$PROJECT_DIR$/src/main/java/IShowRoom/SimpleShowRoomFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/IShowRoom/IShowRoomDatabase.java" />
         <option value="$PROJECT_DIR$/src/main/java/IShowRoom/IShowRoomDatabaseEntry.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TeslaMotors.java" />
         <option value="$PROJECT_DIR$/src/main/java/IShowRoom/SimpleShowRoomDatabase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ITesla/DebugPrinter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/IShowRoom/ITeslaDBEntry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/IShowRoom/SimpleDBEntry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/IShowRoom/ITeslaDB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/IShowRoom/SimpleTeslaDB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TeslaMotors.java" />
         <option value="$PROJECT_DIR$/src/main/java/IShowRoom/IShowRoom.java" />
         <option value="$PROJECT_DIR$/src/main/java/IShowRoom/SimpleShowRoom.java" />
       </list>
@@ -288,7 +294,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549214581707" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549283106738" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -338,6 +344,14 @@
       <option name="presentableId" value="Default" />
       <updated>1549103761763</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added database, not good though">
+      <created>1549276615086</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1549276615087</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -351,7 +365,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="835" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -363,12 +376,12 @@
       <window_info anchor="bottom" id="Flutter Performance" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.32617342" />
-      <window_info anchor="bottom" id="Version Control" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.32599726" />
+      <window_info anchor="bottom" id="Version Control" order="4" weight="0.3287483" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.3293556" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.32458234" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.398568" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.3232462" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.39752406" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.22434367" />
@@ -384,41 +397,16 @@
       <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info id="UI Designer" order="1" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.17245582" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Flutter Performance" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="3" visible="true" weight="0.32692307" />
-      <window_info anchor="bottom" id="Version Control" order="4" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" weight="0.3293556" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.3253205" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.398568" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="right" id="Flutter Outline" order="0" />
-      <window_info anchor="right" id="Maven Projects" order="1" />
-      <window_info anchor="right" id="Flutter Inspector" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
-      <window_info anchor="right" id="Palette" order="7" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
-    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="SHOW_OTHER_BRANCHES" value="true" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added database, not good though" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added database, not good though" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/Enums.java" />
@@ -475,6 +463,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -497,6 +488,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="401">
           <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -504,20 +498,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ITesla/BaseModels/TeslaModelS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ITesla/BaseModels/TeslaModelX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -538,27 +522,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ITesla/Decorators/ITeslaDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="55" lean-forward="true" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ITesla/ITeslaUsed.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ITesla/ITeslaBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="70" column="48" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -626,44 +593,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ITesla/DebugPrinter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1104">
-          <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TeslaMotors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/IShowRoom/SimpleShowRoomDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/IShowRoom/IShowRoomFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/IShowRoom/IShowRoom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -677,18 +610,169 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/IShowRoom/SimpleShowRoom.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/IShowRoom/IShowRoomFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="989">
-          <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+        <state relative-caret-position="92">
+          <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ITesla/DebugPrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-241">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-8.0_161.jdk/Contents/Home/src.zip!/java/lang/Enum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
+          <folding>
+            <element signature="e#3009#3010#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-8.0_161.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="1958" selection-start-line="1958" selection-end-line="1958" />
+          <folding>
+            <element signature="e#76090#76091#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-8.0_161.jdk/Contents/Home/src.zip!/java/util/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ITesla/BaseModels/TeslaModelX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#623#631#0" expanded="true" />
-            <element signature="e#1590#1591#0" expanded="true" />
-            <element signature="e#1622#1623#0" expanded="true" />
-            <element signature="e#1661#1662#0" expanded="true" />
-            <element signature="e#1693#1694#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ITesla/BaseModels/TeslaModelS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ITesla/ITeslaBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ITesla/Decorators/ITeslaDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/IShowRoom/ITeslaDBEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/IShowRoom/SimpleDBEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/IShowRoom/ITeslaDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/IShowRoom/SimpleTeslaDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#314#329#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#1165#1173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/IShowRoom/IShowRoom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="14" column="68" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/IShowRoom/SimpleShowRoom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="75" column="46" lean-forward="true" selection-start-line="75" selection-start-column="46" selection-end-line="75" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#405#413#0" expanded="true" />
+            <element signature="e#2903#2904#0" expanded="true" />
+            <element signature="e#2938#2939#0" expanded="true" />
+            <element signature="e#3145#3146#0" expanded="true" />
+            <element signature="e#3199#3200#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TeslaMotors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>

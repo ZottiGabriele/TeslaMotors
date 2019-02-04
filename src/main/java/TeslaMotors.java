@@ -13,27 +13,21 @@ public class TeslaMotors {
     public static void main(String[] args) {
 
         ITeslaBuilder teslaBuilder = new ITeslaBuilder();
-        DebugPrinter debugPrinter = new DebugPrinter();
-        ITesla myNewModelS = teslaBuilder.getTesla(TeslaModel.modelS)
-                .withBattery(BatteryType.kwh90)
-                .withExteriorColor(ExteriorColor.red)
-                .withRoofType(RoofType.cabrio)
-                .withSeatsModel(SeatsModel.sport)
-                .withSeatsColor(SeatsColor.blue)
-                .build();
 
-        ITeslaUsed myUsedModelX = teslaBuilder.getTesla(TeslaModel.modelX)
-                .withBattery(BatteryType.kwh110)
-                .withExteriorColor(ExteriorColor.blue)
-                .buildUsed(12345, 4321, new Date(2011, 11, 12));
+        IShowRoom milanShowRoom = new SimpleShowRoom();
+        Date targetDate = new Date();
+        Date secondDate = new Date(1211, 12, 12);
 
-        IShowRoomFactory showRoomFactory = new SimpleShowRoomFactory();
-        IShowRoom milanShowRoom = showRoomFactory.getShowRoom("Milan-Teslas", "Milan");
-        milanShowRoom.addCarToShowroom(myNewModelS);
-        milanShowRoom.addCarToShowroom(myUsedModelX);
+        milanShowRoom.getAllAvailableTeslasForTestDrive(TeslaModel.modelX, targetDate);
+        milanShowRoom.bookTestDrive(TeslaModel.modelX, targetDate);
+        milanShowRoom.getAllAvailableTeslasForTestDrive(TeslaModel.modelX, targetDate);
 
-        for(ITesla t :milanShowRoom.getAvailableCars(new Date())) {
-            System.out.println(debugPrinter.prettyPrint(t));
-        }
+        milanShowRoom.getAllAvailableTeslasForTestDrive(TeslaModel.modelX, secondDate);
+
+        ITesla t = milanShowRoom.getAllAvailableTeslas().get(0);
+        milanShowRoom.bookPurchase(t);
+        milanShowRoom.bookPurchase(t);
+        milanShowRoom.bookPurchase(teslaBuilder.getTesla(TeslaModel.model3).build());
+        milanShowRoom.getAllAvailableTeslasForTestDrive(TeslaModel.modelX, secondDate);
     }
 }
