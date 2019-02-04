@@ -1,8 +1,12 @@
+import IShowRoom.IShowRoom;
 import ITesla.Enums.*;
 import ITesla.ITesla;
 import ITesla.ITeslaUsed;
 import ITesla.ITeslaBuilder;
 import ITesla.DebugPrinter;
+import IShowRoom.*;
+
+import java.util.Date;
 
 public class TeslaMotors {
 
@@ -21,10 +25,15 @@ public class TeslaMotors {
         ITeslaUsed myUsedModelX = teslaBuilder.getTesla(TeslaModel.modelX)
                 .withBattery(BatteryType.kwh110)
                 .withExteriorColor(ExteriorColor.blue)
-                .buildUsed(12345, 4321, "15/12/2011");
+                .buildUsed(12345, 4321, new Date(2011, 11, 12));
 
-        System.out.println(debugPrinter.prettyPrint(myNewModelS)+ "\n");
-        System.out.println(debugPrinter.prettyPrint(myUsedModelX));
-        System.out.println("\tWith " + myUsedModelX.getKilometersCount() + " km since " + myUsedModelX.getLicenceDate());
+        IShowRoomFactory showRoomFactory = new SimpleShowRoomFactory();
+        IShowRoom milanShowRoom = showRoomFactory.getShowRoom("Milan-Teslas", "Milan");
+        milanShowRoom.addCarToShowroom(myNewModelS);
+        milanShowRoom.addCarToShowroom(myUsedModelX);
+
+        for(ITesla t :milanShowRoom.getAvailableCars(new Date())) {
+            System.out.println(debugPrinter.prettyPrint(t));
+        }
     }
 }

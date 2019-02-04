@@ -3,13 +3,15 @@ package ITesla.Decorators;
 import ITesla.ITesla;
 import ITesla.ITeslaUsed;
 
+import java.util.Date;
+
 public class ITeslaUsedDecorator extends ITeslaDecorator implements ITeslaUsed {
 
     float usedPrice;
     float kilometersCount;
-    String licenceDate;
+    Date licenceDate;
 
-    public ITeslaUsedDecorator(ITesla component, float usedPrice, float kilometersCount, String licenceDate) {
+    public ITeslaUsedDecorator(ITesla component, float usedPrice, float kilometersCount, Date licenceDate) {
         super(component);
         this.usedPrice = usedPrice;
         this.kilometersCount = kilometersCount;
@@ -25,7 +27,7 @@ public class ITeslaUsedDecorator extends ITeslaDecorator implements ITeslaUsed {
         return this.kilometersCount;
     }
 
-    public String getLicenceDate() {
+    public Date getLicenceDate() {
         return this.licenceDate;
     }
 }

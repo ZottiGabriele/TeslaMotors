@@ -4,9 +4,11 @@ import ITesla.Decorators.*;
 import ITesla.Enums.*;
 import ITesla.BaseModels.*;
 
+import java.util.Date;
+
 public class ITeslaBuilder {
 
-    ITesla component;
+    private ITesla component;
 
     public ITeslaBuilder getTesla(TeslaModel model) {
         switch (model) {
@@ -48,16 +50,26 @@ public class ITeslaBuilder {
         return this;
     }
 
-    public ITeslaBuilder withDiscount(float discountPercentage) {
-        component = new ITeslaDiscountDecorator(component, discountPercentage);
-        return this;
+    public ITesla applyDiscount(ITesla target, float discountPercentage) {
+        component = new ITeslaDiscountDecorator(target, discountPercentage);
+        return build();
     }
+
+    public ITeslaUsed applyDiscount(ITeslaUsed target, float discountPercentage) {
+        component = new ITeslaDiscountDecorator(target, discountPercentage);
+        return buildUsed(component.getPrice(), target.getKilometersCount(), target.getLicenceDate());
+    }
+
 
     public ITesla build() {
-        return component;
+        ITesla tmp = component;
+        component = null;
+        return tmp;
     }
 
-    public ITeslaUsed buildUsed(float usedPrice, float kilometersCount, String licenceDate) {
-        return new ITeslaUsedDecorator(component, usedPrice, kilometersCount, licenceDate);
+    public ITeslaUsed buildUsed(float usedPrice, float kilometersCount, Date licenceDate) {
+        ITeslaUsed out = new ITeslaUsedDecorator(component, usedPrice, kilometersCount, licenceDate);
+        component = null;
+        return out;
     }
 }

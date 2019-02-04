@@ -1,6 +1,8 @@
 package ITesla;
 
+import java.util.Date;
+
 public interface ITeslaUsed extends ITesla {
     float getKilometersCount();
-    String getLicenceDate();
+    Date getLicenceDate();
 }
